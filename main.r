@@ -125,12 +125,22 @@ print(quantile(airquality$Temp,na.rm=TRUE))
 
 # boxplot() function
 print("--------------------")
-print("Boxplots")
+print("Boxplot:")
 result <- boxplot(airquality[-airquality$Month])
 print(paste(result$names[1],result$names[2],result$names[3],result$names[4]))
 print(result$stats)
+print("Go to Rplots.pdf")
 
 # summary() function
 print("--------------------")
 print("Resumo:")
 print(summary(airquality))
+
+# plot() function
+print("--------------------")
+print("Plot:")
+ozone_plot <- plot(airquality$Ozone)
+solar_plot <- plot(airquality$Solar.R)
+wind_plot <- plot(airquality$Wind)
+temp_plot <- plot(airquality$Temp)
+print("Go to Rplots.pdf")
