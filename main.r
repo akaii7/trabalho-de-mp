@@ -125,7 +125,12 @@ print(quantile(airquality$Temp,na.rm=TRUE))
 
 # boxplot() function
 print("--------------------")
-print("Boxplots:")
+print("Boxplots")
 result <- boxplot(airquality[-airquality$Month])
 print(paste(result$names[1],result$names[2],result$names[3],result$names[4]))
 print(result$stats)
+
+# summary() function
+print("--------------------")
+print("Resumo:")
+print(summary(airquality))
