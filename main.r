@@ -134,7 +134,7 @@ print("Vá para Rplots.pdf")
 # summary() function
 print("--------------------")
 print("Resumo:")
-print(summary(airquality))
+print(summary(airquality[-airquality$Month]))
 
 # plot() function
 print("--------------------")
