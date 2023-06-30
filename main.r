@@ -122,3 +122,10 @@ print("Quantil de Velocidade do Vento:")
 print(quantile(airquality$Wind,na.rm=TRUE))
 print("Quantil de Temperatura:")
 print(quantile(airquality$Temp,na.rm=TRUE))
+
+# boxplot() function
+print("--------------------")
+print("Boxplots:")
+result <- boxplot(airquality[-airquality$Month])
+print(paste(result$names[1],result$names[2],result$names[3],result$names[4]))
+print(result$stats)
