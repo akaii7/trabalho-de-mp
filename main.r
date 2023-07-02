@@ -19,7 +19,7 @@ print("Média de Radiação Solar:")
 print(mean(na.omit(airquality$Solar.R)))
 print("Média de Velocidade do Vento:")
 print(mean(na.omit(airquality$Wind)))
-print("Média de Temperatura):")
+print("Média de Temperatura:")
 print(mean(na.omit(airquality$Temp)))
 
 # median() function
