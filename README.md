@@ -1,4 +1,4 @@
-# akaii7/trabalho-de-mp
+# trabalho-de-mp
 
 Este repositório contém arquivos utilizados para o trabalho final da matéria de Metodologia de Pesquisa do curso Técnico em Desenvolvimento de Sistemas da ETE Porto Digital.
 
